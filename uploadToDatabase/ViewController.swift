@@ -56,7 +56,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let username = usernameTextfield.text! as String
         let password = passwordTextfield.text! as String
         let email = emailTextfield.text! as String
-        
+        let newString = email.stringByReplacingOccurrencesOfString("@", withString: "+")
         let url = NSURL(string: "http://www.iamelimars.com/jsonadd.php")
         
         let request = NSMutableURLRequest(URL: url!)
