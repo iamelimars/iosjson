@@ -11,6 +11,7 @@ import UIKit
 class DownloadViewController: UITableViewController {
     
     //var jsonResult:Array = []
+    //
     var TableData = [Dictionary<String,AnyObject>]()
     var Table: [Dictionary<String,AnyObject>] = [Dictionary<String,AnyObject>]()
     var tableName = [String]()

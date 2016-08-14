@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.usernameTextfield.delegate = self
         self.passwordTextfield.delegate = self
         self.emailTextfield.delegate = self
+        //
 /*
         let url = NSURL(string: "http://www.iamelimars.com/jsonadd.php")
         

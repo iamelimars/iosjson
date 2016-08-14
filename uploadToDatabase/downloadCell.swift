@@ -14,4 +14,5 @@ class downloadCell: UITableViewCell {
     @IBOutlet weak var passwordLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var idLabel: UILabel!
+    //
 }
