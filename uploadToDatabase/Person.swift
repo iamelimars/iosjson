@@ -12,7 +12,7 @@ class Person {
     var username = ""
     var email = ""
     var password = ""
-    var id = 0
+    var id = ""
     //
     
 }
